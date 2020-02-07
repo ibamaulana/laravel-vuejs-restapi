@@ -1,0 +1,231 @@
+@font-face{
+    font-family: montserrat-regular;
+    src: url(/assets/fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face{
+    font-family: montserrat-light;
+    src: url(/assets/fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face{
+    font-family: montserrat-bold;
+    src: url(/assets/fonts/montserrat/Montserrat-Bold.otf);
+}
+p,span,li{
+    font-family: montserrat-light;
+}
+h1,h2,h3,h4,h5{
+    font-family: montserrat-bold;
+}
+b{
+    font-family: montserrat-regular;
+    font-weight: bold
+}
+.input-group-append{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    padding-right: 6px;
+    border-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.form-control-sm{
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 12px;
+}
+.btn-newsletter{
+    border-radius:50px!important;
+    padding: 2px 10px!important;
+}
+.text-muted{
+    color:#8d8d8d!important
+}
+.btn{
+    font-family: montserrat-regular;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.display-2{
+    font-size:45px;
+}
+.price-feature{
+    font-size: 13px!important;
+}
+.smaller{
+    font-size: 12px;
+    font-weight: 0;
+}
+.smallest{
+    font-size: 10px;
+}
+.topbar{
+    z-index: 99999;
+    border-bottom: 1px solid whitesmoke;
+    height: 35px;
+    vertical-align: middle;
+    padding-top:3px;
+}
+.topbar small{
+    font-size:13px;
+    margin-left:10px;
+}
+.topbar small i{
+    margin-right:10px;
+}
+
+.homeheader{
+    margin-top:50px;
+    padding-bottom:50px;
+}
+.head-title{
+    font-size: 25px;
+}
+.head-description{
+    font-size: 20px;
+}
+.card-header{
+    padding: 5px;
+}
+.card-title{
+    font-size:25px;
+}
+.nav-link{
+    font-size: 15px;
+    padding-right: 0px!important;
+}
+.items {
+    border:none!important;
+    padding:0.2rem !important;
+    font-size:14px!important;
+}
+
+.items-small {
+    border:none!important;
+    padding:0.1rem!important;
+    margin-left: 30%;
+    font-size:15px!important;
+}
+.list-group-item{
+    padding: 0.5rem 2rem;
+}
+.icons{
+    height:200px
+}
+.price-card{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 0px
+}
+.normalprice{
+    text-decoration:line-through;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.section-divider{
+    border-top: 5px solid whitesmoke;
+    margin:auto;
+    width:10%;
+}
+.notes{
+    font-size:14px;
+    margin-top:15px!important;
+}
+/* common */
+.ribbon {
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    display: block;
+    border: 5px solid #39a283;
+}
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 140px;
+    padding: 15px 0;
+    background-color: #42ba96;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 11px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+.ribbon-top-left::before {
+    top: 0;
+    right: 0;
+}
+.ribbon-top-left::after {
+    bottom: 50px;
+    left: 0;
+}
+.ribbon-top-left span {
+    right: -6px;
+    top: 16px;
+    transform: rotate(-45deg);
+}
+.speech-bubble {
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 27px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    margin-top: -27px;
+    margin-left: -27px;
+}
+
+@media screen and (max-width:800px){
+    .navbar{
+        padding-top:20px!important;
+        border-bottom: 1px solid whitesmoke;
+    }
+    .homeheader{
+        margin-top:100px;
+        padding-bottom:50px;
+    }
+    .price-feature{
+        font-size: 16px!important;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .items-small{
+        margin-left:0px!important;
+        text-align: center;
+    }
+}
+.navbar{
+    padding-top:50px;
+    border-bottom: 1px solid whitesmoke;
+}
